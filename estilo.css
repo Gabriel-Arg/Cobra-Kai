@@ -1,0 +1,98 @@
+body {
+    /* background-color: #181818; */
+    background-image: url(https://occ-0-2646-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcSScyVLzRbU-aJmQhN_pXNUpbVbpSxEJXzKsS2vZdVIHvtl48mvfFJEHo6lHWtDT7YrIRYrJLfFvgj1m37B72OdVsUm.jpg?r=657&quot;);
+    background-size: 100%;
+}
+
+/* ENCABEZADO PRINCIPAL */
+.header {
+    background: none;
+    height: auto;
+    padding: 1rem 0rem;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+}
+
+.lead {
+    margin-bottom: 0px;
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.personajes {
+    padding: 15px;
+}
+
+.card {
+    margin: 0px 5px;
+    width: 25%;
+}
+
+.card-img-top {
+    /* height: 50%; */
+}
+
+.card-body {
+    height: auto;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+/* CARRUSEL */
+.h-card {
+    height: 350px;
+}
+.w-card {
+    width: 250px;
+    height: 300px;
+}
+
+/* BOTON */
+.boton {
+    background-color: rgba(0, 0, 0, 0.602);
+}
+
+.btn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: auto;
+    padding: 2rem 0rem;
+}
+
+.btn {
+    background-color: rgba(255, 0, 0, 0.472);
+    border: 1px solid rgba(255, 255, 255, 0.541);
+}
+
+.btn a {
+    color: rgba(255, 255, 0, 0.705)
+}
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(0, 0, 0, 0.788);
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    color: rgba(255, 255, 0, 0.534);
+}
+
+.condiciones {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.condiciones a {
+    color: rgba(255, 255, 0, 0.404);
+    margin: 0px 15px;
+}
